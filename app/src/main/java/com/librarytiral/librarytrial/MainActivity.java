@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity  {
 
                            Toast.makeText(MainActivity.this, String.valueOf(sanfile), Toast.LENGTH_SHORT).show();
 
-                           File f2 = new File(Environment.getExternalStorageDirectory().toString() + "/andFolderapksa");
+                           File f2 = new File(Environment.getExternalStorageDirectory().toString() + "/SanyuGetAPK");
                                f2.mkdirs();
 
                            f2 = new File(f2.getPath() + "/" + sanfile + ".apk");
