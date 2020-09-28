@@ -23,7 +23,9 @@ public class resolveapkadapter  extends BaseAdapter {
 
     public resolveapkadapter(Context context, List<resolveapkcons> AppUserList) {
         super();
+
         this.mContext = context;
+
         this.AppUserList = AppUserList;
         inflater = LayoutInflater.from(mContext);
     }
