@@ -17,9 +17,7 @@ public class resolveapkadapter  extends BaseAdapter {
     Context mContext;
     LayoutInflater inflater;
     List<resolveapkcons> AppUserList;
-
-   //
-           // PackageManager packageManager;
+   // PackageManager packageManager;
 
     public resolveapkadapter(Context context, List<resolveapkcons> AppUserList) {
         super();
