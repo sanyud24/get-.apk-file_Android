@@ -17,7 +17,7 @@ public class resolveapkadapter  extends BaseAdapter {
     Context mContext;
     LayoutInflater inflater;
     List<resolveapkcons> AppUserList;
-   // PackageManager packageManager;
+  
 
     public resolveapkadapter(Context context, List<resolveapkcons> AppUserList) {
         super();
@@ -58,7 +58,7 @@ public class resolveapkadapter  extends BaseAdapter {
         if (convertView==null){
             holder = new ViewHolder();
 
-            convertView = inflater.inflate(R.layout.listview,vg);
+            convertView = inflater.inflate( R.layout.listview,vg);
             holder.filename = (TextView) convertView.findViewById(R.id.filename);
 
             convertView .setTag(holder);
